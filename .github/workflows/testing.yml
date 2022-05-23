@@ -14,11 +14,12 @@ jobs:
       uses: actions/setup-dotnet@v2
       with:
         dotnet-version: 3.1.418
-    - name: Restore dependencies
+        
+    - name: Install dependencies
       run: dotnet restore
       
     - name: Build
-      run: 
+      run: |
         dotnet build MathCore.WPF.Styles/MathCore.WPF.Styles.csproj -c Debug --no-restore
         dotnet build Tests/MathCore.WPF.Styles.Tests/MathCore.WPF.Styles.Tests.csproj -c Debug --no-restore
         

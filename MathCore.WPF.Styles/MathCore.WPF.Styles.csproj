@@ -8,8 +8,8 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <Version>0.0.2</Version>
-    <PackageReleaseNotes>Анимация перемещения заголовка у TaggedTextBox</PackageReleaseNotes>
+    <Version>0.0.3</Version>
+    <PackageReleaseNotes>Стиль для элемента CheckBox в виде переключателя</PackageReleaseNotes>
   </PropertyGroup>
 
   <PropertyGroup>

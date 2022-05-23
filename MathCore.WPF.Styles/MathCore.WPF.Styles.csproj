@@ -8,8 +8,8 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <Version>0.0.1</Version>
-    <PackageReleaseNotes>Запуск проекта</PackageReleaseNotes>
+    <Version>0.0.2</Version>
+    <PackageReleaseNotes>Анимация перемещения заголовка у TaggedTextBox</PackageReleaseNotes>
   </PropertyGroup>
 
   <PropertyGroup>

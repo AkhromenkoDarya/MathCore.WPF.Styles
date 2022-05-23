@@ -4,6 +4,27 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UseWpf>true</UseWpf>
     <LangVersion>latest</LangVersion>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Version>0.0.1</Version>
+    <PackageReleaseNotes>Запуск проекта</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>MathCore.WPF.StylePackage</PackageId>
+    <Authors>Akhromenko D.S.</Authors>
+    <Company />
+    <Description>Пакет содержит стили и шаблоны элементов управления WPF под .NET Core 3.1</Description>
+    <Copyright>otulissa2012@yandex.ru</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/AkhromenkoDarya/MathCore.WPF.Styles</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/AkhromenkoDarya/MathCore.WPF.Styles</RepositoryUrl>
+    <PackageTags>WPF, Styles, Templates</PackageTags>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>MathCore.WPF.Styles.snk</AssemblyOriginatorKeyFile>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
 
 </Project>
